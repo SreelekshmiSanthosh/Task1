@@ -1,0 +1,52 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7));
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.task-tree {
+  padding-left: 20px;
+}
+
+.task {
+  margin-left: 20px;
+  padding: 10px;
+  border-left: 2px;
+}
+
+.task h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.task p {
+  font-size: 14px;
+  color: white;
+}
+
+.task-children {
+  margin-left: 20px;
+}
+
+@media (max-width: 850px) {
+    .task h4{
+        font-size: 23px;
+    }
+} 
+@media (max-width: 650px) {
+    .task h4{
+        font-size: 20px;
+        max-width: 400px;
+        margin: auto
+    }
+    .tasl p{
+        font-size: 10px;
+        margin: 15px auto 30px;
+    }
+
+} 
